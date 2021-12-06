@@ -1,0 +1,108 @@
+/* =============== 
+       Body 
+================= */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =================
+       Navigation 
+  ====================   */
+
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px;
+  background-color: blue;
+}
+
+h1 {
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 0;
+  font-size: larger;
+  padding-left: 15px;
+}
+
+ul li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/* ================ 
+        Content 
+   ================== */
+
+.picture {
+  padding-left: 5rem;
+  width: 460px;
+}
+
+.Portfolio {
+  width: 450px;
+  padding-left: 75px;
+}
+
+div h2 {
+  text-align: center;
+  margin: 25px 35px;
+  padding-right: 25px;
+}
+
+p {
+  font-size: larger;
+  text-align: center;
+  padding: 25px;
+}
+
+h4 {
+  text-align: center;
+  font-size: larger;
+  margin: 20px 25px;
+  padding-right: 25px;
+}
+
+/* ================= 
+       Media Queries 
+    ================== */
+
+@media (min-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .main-nav ul {
+    display: flex;
+  }
+  .picture {
+    padding-right: 35px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-header {
+    display: flex;
+    flex-direction: row;
+  }
+  .picture {
+    padding-right: 35px;
+  }
+}
