@@ -7,6 +7,16 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Abril Fatface", cursive;
+}
 /* =================
        Navigation 
   ====================   */
@@ -16,8 +26,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 25px;
-  background-color: blue;
+  margin: 15px 15px;
+  background-color: blueviolet;
 }
 
 h1 {
@@ -40,7 +50,7 @@ ul li {
 
 a {
   text-decoration: none;
-  color: aliceblue;
+  color: black;
 }
 
 /* ================ 
@@ -48,7 +58,7 @@ a {
    ================== */
 
 .picture {
-  padding-left: 5rem;
+  padding-left: 7.5em;
   width: 460px;
 }
 
@@ -76,6 +86,20 @@ h4 {
   padding-right: 25px;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding: 0 20px;
+  height: 100px;
+  background-color: blueviolet;
+  color: black;
+}
+.full {
+  display: none;
+}
+
 /* ================= 
        Media Queries 
     ================== */
@@ -100,6 +124,13 @@ h4 {
   }
   .col {
     flex-basis: 50%;
+  }
+  .top {
+    display: none;
+  }
+  .full {
+    display: inline-block;
+    margin-left: 20px;
   }
 }
 
