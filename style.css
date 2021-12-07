@@ -86,6 +86,7 @@ h4 {
   padding-right: 25px;
 }
 
+/* Footer */
 footer {
   display: flex;
   justify-content: space-between;
@@ -96,9 +97,13 @@ footer {
   background-color: blueviolet;
   color: black;
 }
+
 .full {
   display: none;
-  text-decoration: none;
+}
+
+.Top {
+  list-style-type: none;
 }
 
 /* ================= 
@@ -126,7 +131,7 @@ footer {
   .col {
     flex-basis: 50%;
   }
-  .top {
+  .Top {
     display: none;
   }
   .full {
