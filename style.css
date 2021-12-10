@@ -93,7 +93,7 @@ h4 {
 }
 
 /* Section */
-.section {
+#Skills {
   background-color: burlywood;
   margin: 7px;
 }
@@ -102,6 +102,7 @@ h4 {
   padding-left: 7px;
 }
 .skills {
+  font-size: large;
   text-align: center;
   padding-right: 30px;
   padding-left: 15px;
@@ -110,6 +111,10 @@ h4 {
 #Contact {
   margin-top: 50px;
   padding: 40px;
+}
+
+.switch {
+  margin-left: 40px;
 }
 
 /* Footer */
