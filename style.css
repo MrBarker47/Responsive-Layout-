@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Abril Fatface", cursive;
+  background-color: #dedede;
 }
 /* =================
        Navigation 
@@ -56,6 +57,11 @@ a {
 /* ================ 
         Content 
    ================== */
+.container {
+  border: 7px solid white;
+  background-color: white;
+  margin: 15px;
+}
 
 .picture {
   padding-left: 7.5em;
@@ -86,6 +92,26 @@ h4 {
   padding-right: 25px;
 }
 
+/* Section */
+.section {
+  background-color: burlywood;
+  margin: 7px;
+}
+#New {
+  font-size: 30px;
+  padding-left: 7px;
+}
+.skills {
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 15px;
+  list-style-type: none;
+}
+#Contact {
+  margin-top: 50px;
+  padding: 40px;
+}
+
 /* Footer */
 footer {
   display: flex;
@@ -104,6 +130,10 @@ footer {
 
 .Top {
   list-style-type: none;
+}
+
+.contact {
+  padding-left: 15px;
 }
 
 /* ================= 
