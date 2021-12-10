@@ -64,8 +64,8 @@ a {
 }
 
 .picture {
-  padding-left: 7.5em;
-  width: 460px;
+  max-width: 100%;
+  padding: 0 100px;
 }
 
 .Portfolio {
@@ -94,7 +94,6 @@ h4 {
 
 /* Section */
 #Skills {
-  background-color: burlywood;
   margin: 7px;
 }
 #New {
