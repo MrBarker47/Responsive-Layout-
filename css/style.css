@@ -2,20 +2,21 @@
        Body 
 ================= */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
   height: 100%;
+  text-align: center;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Rubik Mono One", sans-serif;
   background-color: #dedede;
 }
 /* =================
@@ -28,7 +29,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 15px 15px;
-  background-color: blueviolet;
+  background-color: lightgoldenrodyellow;
 }
 
 h1 {
@@ -39,7 +40,7 @@ h1 {
 .main-nav ul {
   list-style-type: none;
   flex-direction: row;
-  justify-content: center;
+  text-align: center;
   margin: 15px 0;
   font-size: larger;
   padding-left: 15px;
@@ -94,6 +95,7 @@ h4 {
 
 /* Section */
 #Skills {
+  background-color: burlywood;
   margin: 7px;
 }
 #New {
@@ -113,7 +115,7 @@ h4 {
 }
 
 .switch {
-  margin-left: 40px;
+  text-align: center;
 }
 
 /* Footer */
@@ -124,8 +126,7 @@ footer {
   margin-top: auto;
   padding: 0 20px;
   height: 100px;
-  background-color: blueviolet;
-  color: black;
+  background-color: lightgoldenrodyellow;
 }
 
 .full {
@@ -172,6 +173,9 @@ footer {
     display: inline-block;
     margin-left: 20px;
   }
+  .skills {
+    text-align: left;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -184,5 +188,7 @@ footer {
   }
   .col {
     flex-basis: 33.333%;
+    /* max-width: 1200px;
+    /* text-align: center; */
   }
 }
